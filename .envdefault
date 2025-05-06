@@ -1,0 +1,7 @@
+ENVIRONMENT_NAME=dev
+DB_USER=superadmin
+DB_PASSWORD=pWFzYbZ6uEXtFxoH
+DB_CLUSTER=colpets.wcnilgk.mongodb.net
+DB_NAME=dev
+SECRET_KEY=npdsdijiajdlkjijd
+PORT=3000
