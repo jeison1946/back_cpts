@@ -11,8 +11,8 @@ export class TokenController {
     return this.tokenService.create(createTokenDto);
   }
 
-  @Get()
-  findAll(@Query() query) {
+  @Get('validate')
+  validateToken(@Query() query) {
     return this.tokenService.validate(query.token);
   }
 }

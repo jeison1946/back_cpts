@@ -28,7 +28,11 @@ export class TokenService {
     throw new UnauthorizedException('Usuario no registrado.');
   }
 
-  validate(token: string) {
-    return verify(token, process.env.SECRET_KEY);
+  validate(token) {
+    try {
+      return verify(token, process.env.SECRET_KEY);
+    } catch (error) {
+      throw new UnauthorizedException('Invalid token');
+    }
   }
 }
