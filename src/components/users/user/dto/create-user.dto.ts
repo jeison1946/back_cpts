@@ -17,7 +17,7 @@ import {
 export class CreateUserDto {
   @ApiProperty({ description: 'Name of user', example: 'Juan' })
   @IsString()
-  @IsNotEmpty()
+  @IsOptional()
   name: string;
 
   @ApiProperty({ description: 'Email of user', example: 'johndoegmail.com' })
