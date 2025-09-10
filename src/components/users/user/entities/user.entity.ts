@@ -33,6 +33,9 @@ export class User {
 
   @Prop({ enum: ['disabled', 'enabled', 'locked'], default: 'disabled' })
   status: string;
+
+  @Prop({ type: Number })
+  code_access: number | null;
 }
 
 const UserModel = SchemaFactory.createForClass(User);
