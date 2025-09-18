@@ -19,7 +19,7 @@
     "noFallthroughCasesInSwitch": false,
     "paths": {
       "@components/*": ["src/components/*"],
-      "@localInterceptors/*": ["src/shared/interceptors/*"],
+      "@localInterceptors/*": ["src/shared/interceptors/*"]
     }
   }
 }
