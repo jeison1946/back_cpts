@@ -1,6 +1,6 @@
 ENVIRONMENT_NAME=dev
-DB_USER=superadmin
-DB_PASSWORD=pWFzYbZ6uEXtFxoH
+DB_USER=develop
+DB_PASSWORD=zWK0RJ5ADzHu3h5B
 DB_CLUSTER=colpets.wcnilgk.mongodb.net
 DB_NAME=dev
 SECRET_KEY=npdsdijiajdlkjijd
